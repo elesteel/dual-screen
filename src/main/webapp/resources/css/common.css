@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {-webkit-text-size-adjust:none;}
+html{-webkit-text-size-adjust:none;}
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { margin: 0; padding: 0; }
+img {border: 0 none; vertical-align: top; }
+ul, li {list-style-type: none; }
+h1, h2, h3, h4, h5, h6 {font-size: 12px; }
+body, input, select, button, textarea {font-size:13px; font-family:Arial,"宋体"; }
+button {cursor: pointer; }
+i, em, cite { font-style: normal; }
+body {color: #333; line-height: 150%; }
+a, a:link {color:#333; text-decoration: none; }
+a:visited {}
+a:active, a:hover {text-decoration: none;}
+a:focus {outline: none;}
+
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+
+.fL {float:left;}
+.fR {float:right;}
+.bm10 {margin-bottom:10px;}
+.textVM * {vertical-align:middle;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac */
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clear {diplay: block!important; float: none!important; clear: both; overflow: hidden; width: auto!important; height: 0!important; margin: 0 auto!important; padding: 0!important; font-size: 0; line-height: 0;}
+
+
+.page {overflow:hidden; background:url(../images/m_bg.jpg) no-repeat; background-size:100% 100%; font-family:"张海山锐谐体2.0-授权联系：Samtype@QQ.com"; font-weight:bolder;}
+.page .takeLe {text-align:center; margin-top:50px;}
+.page .waitBox {margin:50px 0px 0px 50px; background:url(../images/waitText.png) no-repeat; background-size:100% 100%; text-align:center;}
+.page .waitBox .tcArea {}
+.page .waitBox .tcArea .tcBox {width:95px; height:40px; line-height:40px; margin-right:3px; margin-bottom:3px; box-shadow:2px 2px 3px #CCCCCC; background:#ffecf0; color:#000; font-size:14px; float:left; cursor:pointer;}
+.page .waitBox .tc_hover {position:absolute; z-index:100; padding:15px 25px; background:#e6002d; box-shadow:2px 2px 3px #999999; color:#000; font-size:20px; display:none;}
+.page .waitBox .tcArea .tcBox.blue {background:#c0daff;}
+.page .waitBox.sh {background:url(../images/shareText.png) no-repeat; margin:50px 0px 0px 5px; background-size:100% 100%;}
+.page .waitBox.tc {margin:20px 0px 0px 30px; padding:3% 3%; background:url(../images/sendText.png) no-repeat; background-size:100% 100%;}
+.page .waitBox.fp {margin:80px 0px 0px 0px; background:url(../images/fpText.png) no-repeat; background-size:100% 100%;}
+.page .waitBox .playText {min-height:120px; padding-top:50px; font-size:15px;}
+.page .waitBox .playText.sh {position:relative; top:2%; left:10%; padding:0px; width:87%;}
+.page .waitBox .playText h1 {color:#002c6a; font-size:30px;}
+.page .waitBox .playText.fp h1 {font-size:22px;}
+.page .waitBox .fp_btns {text-align:center; margin-left:20px; position:relative; top:27%;}
+.page .waitBox .fp_btns a {display:inline-block; width:100%;}
+.page .waitBox .fp_btns img {margin-bottom:10px;}
+.page .tipText {text-align:center; margin-top:20px; margin-bottom:10px;}
+.logo {text-align:center; padding:10px 0px;}
+
+.page .textBox {margin:30px 30px 0px 30px; background:url(../images/textBox.png) no-repeat; height:60px;}
+.page .textBox .textArea {background:#FFF; height:50px; margin-left:5px; float:left; line-height:50px; padding:0px 10px; font-size:20px; overflow:hidden; white-space:nowrap;}
+.page .textBox .textBtn {background:url(../images/delBtn.png) no-repeat; width:80px; height:50px; background-size:80px 50px; float:left; font-size:20px; text-align:center; line-height:50px; cursor:pointer;}
+.page .subBtn {margin:20px 60px 0px 60px; background:url(../images/btn.png) no-repeat; height:50px; line-height:45px; text-align:center; color:#012d6b; font-size:20px; cursor:pointer;}
